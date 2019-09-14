@@ -1,6 +1,6 @@
 # XRP Messenger
 
-XRP Messenger is a Python 3 library for getting the current BUY value of XRP from Altcoin Trader(South African cryptocurrency exchange). It checks the value against your limit that you set and sending you a Telegram message if the BUY value of XRP is equal or greater than your limit. 
+XRP Messenger is a Linux Python 3 library for getting the current BUY value of XRP from Altcoin Trader(South African cryptocurrency exchange). It checks the value against your limit that you set and sending you a Telegram message if the BUY value of XRP is equal or greater than your limit. 
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ XRP Messenger is a Python 3 library for getting the current BUY value of XRP fro
 5. Create a Telegram bot.
 
 ## Built With
-
+* [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) - Operating System
 * [Python](https://www.python.org/downloads/release/python-373/) - The programming language used
 * [VS Code](https://code.visualstudio.com/) - IDE
 
