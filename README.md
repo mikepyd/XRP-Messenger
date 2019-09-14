@@ -58,5 +58,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Rahiel Kasim - telegram-send
-* Rick van Hattem (Wolph) - progressbar2
+* [Rahiel Kasim](https://pypi.org/project/telegram-send/) - telegram-send
+* [Rick van Hattem](https://pypi.org/project/progressbar2/) - progressbar2
