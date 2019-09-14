@@ -16,6 +16,7 @@ XRP Messenger is a Linux Python 3 library for getting the current BUY value of X
 
 ### Prerequisites
 1. [Telegram Desktop](https://itsfoss.com/install-telegram-desktop-linux/)<br />
+2. A [Telegram Bot](https://core.telegram.org/bots)<br />
 2. [Python 3](https://www.python.org/downloads/release/python-373/)<br />
 2. [pip3](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/) <br />
 
@@ -23,16 +24,14 @@ XRP Messenger is a Linux Python 3 library for getting the current BUY value of X
 
 1. Extract the folder to where you want it.
 2. In Terminal cd to this folder and run: sudo apt install figlet toilet
-3. Still in Terminal: pip3 install -r requirements.txt
+3. Still in Terminal: pip3 install -r requirements.txt. Close Terminal when completed.
 4. In Ubuntu do the following to run an executable text file when double-clicked:
 
 4.1. Open the File Manager.<br />
 4.2. Click on the "hamburger" symbol on the top right of the window, left of the "Minimize" symbol. A menu will drop down.<br />
 4.3. Click "Preferences". A tabbed dialog box will be displayed.<br />
 4.4. Select the "Behavior" tab.<br />
-4.5. Choose your preferred behavior for "executable text files" aka scripts.<br />
-
-5. Create a Telegram bot.
+4.5. Choose "Double click" from "Open Action" and "Run them" for Executable Text Files".Close File Manager.<br />
 
 ## Built With
 * [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) - Operating System
