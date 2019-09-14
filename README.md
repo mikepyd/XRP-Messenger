@@ -27,11 +27,11 @@ XRP Messenger is a Linux Python 3 library for getting the current BUY value of X
 * Still in Terminal: pip3 install -r requirements.txt. Close Terminal when completed.
 * In Ubuntu do the following to run an executable text file when double-clicked:
 
-** Open the File Manager.<br />
-** Click on the "hamburger" symbol on the top right of the window, left of the "Minimize" symbol. A menu will drop down.<br />
-** Click "Preferences". A tabbed dialog box will be displayed.<br />
-** Select the "Behavior" tab.<br />
-** Choose "Double click" from "Open Action" and "Run them" for Executable Text Files".Close File Manager.<br />
+* Open the File Manager.<br />
+* Click on the "hamburger" symbol on the top right of the window, left of the "Minimize" symbol. A menu will drop down.<br />
+* Click "Preferences". A tabbed dialog box will be displayed.<br />
+* Select the "Behavior" tab.<br />
+* Choose "Double click" from "Open Action" and "Run them" for Executable Text Files".Close File Manager.<br />
 
 ## Built With
 * [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) - Operating System
