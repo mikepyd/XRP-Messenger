@@ -1,4 +1,4 @@
-# Project Title
+# XRP Messenger
 
 XRP Messenger is a Python 3 library for getting the current BUY value of XRP from Altcoin Trader(South African cryptocurrency exchange). It checks the value against your limit that you set and sending you a Telegram message if the BUY value of XRP is equal or greater than your limit. 
 
@@ -25,11 +25,11 @@ line 69   bot_chatID = 'xxxxxxxxx'  #Delete "x"'s and enter your bot_chat ID
 3. run pip3 install -r requirements.txt
 4. In Ubuntu do the following to run an executable text file when double-clicked:
 
-Open the File Manager.
-Click on the "hamburger" symbol on the top right of the window, left of the "Minimize" symbol. A menu will drop down.
-Click "Preferences". A tabbed dialog box will be displayed.
-Select the "Behavior" tab.
-Choose your preferred behavior for "executable text files" aka scripts.
+a) Open the File Manager.
+b) Click on the "hamburger" symbol on the top right of the window, left of the "Minimize" symbol. A menu will drop down.
+c) Click "Preferences". A tabbed dialog box will be displayed.
+d) Select the "Behavior" tab.
+d) Choose your preferred behavior for "executable text files" aka scripts.
 
 5. Create a Telegram bot.
 
