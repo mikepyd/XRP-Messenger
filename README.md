@@ -15,8 +15,9 @@ XRP Messenger is a Python 3 library for getting the current BUY value of XRP fro
 3. Double-click start.sh to run the program.
 
 ### Prerequisites
-1. figlet toilet<br />
-2. pip3<br />
+1. [Telegram Desktop](https://itsfoss.com/install-telegram-desktop-linux/)<br />
+2. [Python 3](https://www.python.org/downloads/release/python-373/)<br />
+2. [pip3](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/) <br />
 
 ### Installing
 
