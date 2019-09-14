@@ -7,10 +7,10 @@ XRP Messenger is a Python 3 library for getting the current BUY value of XRP fro
 1. Create a Telegram Bot. Many tutorials can be found online. It takes only a couple of minutes to do.
 2. Open mercury.py in your favourite IDE or text editor and edit the following lines:
 
-line 42   xrpval = 5.0 # enter your limit in ZAR without the "R". R5.00 in this example.
+2.1. line 42   xrpval = 5.0 # enter your limit in ZAR without the "R". R5.00 in this example.
 
-line 68	  api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'# Delete "x"'s and enter your Telegram API key
-line 69   bot_chatID = 'xxxxxxxxx'  #Delete "x"'s and enter your bot_chat ID 
+2.2. line 68	  api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'# Delete "x"'s and enter your Telegram API key
+2.3. line 69   bot_chatID = 'xxxxxxxxx'  #Delete "x"'s and enter your bot_chat ID 
 
 3. Double-click start.sh to run the program.
 
@@ -25,11 +25,11 @@ line 69   bot_chatID = 'xxxxxxxxx'  #Delete "x"'s and enter your bot_chat ID
 3. Still in Terminal: pip3 install -r requirements.txt
 4. In Ubuntu do the following to run an executable text file when double-clicked:
 
-a) Open the File Manager.
-b) Click on the "hamburger" symbol on the top right of the window, left of the "Minimize" symbol. A menu will drop down.
-c) Click "Preferences". A tabbed dialog box will be displayed.
-d) Select the "Behavior" tab.
-d) Choose your preferred behavior for "executable text files" aka scripts.
+4.1. Open the File Manager.
+4.2. Click on the "hamburger" symbol on the top right of the window, left of the "Minimize" symbol. A menu will drop down.
+4.3. Click "Preferences". A tabbed dialog box will be displayed.
+4.4. Select the "Behavior" tab.
+4.5. Choose your preferred behavior for "executable text files" aka scripts.
 
 5. Create a Telegram bot.
 
