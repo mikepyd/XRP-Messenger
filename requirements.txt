@@ -1,0 +1,4 @@
+telegram_send==0.20
+requests==2.21.0
+beautifulsoup4==4.8.0
+progressbar2==3.43.1

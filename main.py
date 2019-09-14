@@ -1,3 +1,4 @@
+
 '''
 This module calls networkchecker.py and starts the process of getting the buy data of XRP 
 from Altcoin Trader.

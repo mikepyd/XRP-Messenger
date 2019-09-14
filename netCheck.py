@@ -3,19 +3,24 @@ This module checks if you are connected to the Altcoin Trader.
 Starts Mercury module if successfully connected.
 
 Author: Michiel Odendaal
-Date last modified: 12 Aug 2019
-email: mikescryptot@gmail.com
+Date last modified: 9 Sep 2019
+email: mikepydev@gmail.com
 '''
 
+import os
 import requests
 import urllib
+from urllib import *
 import mercury
+import time
 
 def checkNetwork():
+
+    connection_timeout = 30
+    start_time = time.time()
       
     print('\n Network Checker successfully started...')
-     
-    
+        
     try:
         
         # The URL to Altcoin Trader XRP page
@@ -30,15 +35,17 @@ def checkNetwork():
         url_req = requests.get(url, data)
         status = url_req.status_code
                 
-        if status == 200:
-            
+        if status == 200:            
+            os.system("clear")
             print('\n Success! You are connected to: ', url)
             print('\n Starting mercury Messenger module ... \n')
-            mercury.messenger()
+            time.sleep(2) 
+            mercury.messenger()            
         else:
             print(status)
-    except:
-        print('\n An error occured. Check your network settings.', status)
-
-    
-    
+            
+    except ConnectionError:
+        if time.time() > start_time + connection_timeout:
+            raise Exception('Unable to get updates after {} seconds of ConnectionErrors'.format(connection_timeout))
+        else:
+            time.sleep(1)
