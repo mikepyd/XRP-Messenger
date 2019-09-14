@@ -23,11 +23,11 @@ XRP Messenger is a Linux Python 3 library for getting the current BUY value of X
 ### Installing
 
 * Extract the folder to where you want it.
-* In Terminal cd to this folder and run: sudo apt install figlet toilet
-* Still in Terminal: pip3 install -r requirements.txt. Close Terminal when completed.
+* In Terminal cd to this extracted folder and run: "sudo apt install figlet toilet"
+* Still in Terminal: "pip3 install -r requirements.txt". Close Terminal when completed.
 * In Ubuntu do the following to run an executable text file when double-clicked:
 
-  * Open the File Manager.<br />
+  * Open the extracted folder in File Manager.<br />
   * Click on the "hamburger" symbol on the top right of the window, left of the "Minimize" symbol. A menu will drop down.<br />
   * Click "Preferences". A tabbed dialog box will be displayed.<br />
   * Select the "Behavior" tab.<br />
