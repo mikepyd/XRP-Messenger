@@ -4,13 +4,13 @@ XRP Messenger is a Linux Python 3 library for getting the current BUY value of X
 
 ## Getting Started
 
-* Create a Telegram Bot. Many tutorials can be found online. It takes only a couple of minutes to do.<br />
+* Create a Telegram Bot. <br />
 * Open mercury.py in your favourite IDE or text editor and edit the following lines:<br />
 
-* line 42   xrpval = 5.0 # enter your limit in ZAR without the "R". R5.00 in this example.<br />
+  * line 42   xrpval = 5.0 # enter your limit in ZAR without the "R". R5.00 in this example.<br />
 
-* line 68	  api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'# Delete "x"'s and enter your Telegram API key<br />
-* line 69   bot_chatID = 'xxxxxxxxx'  #Delete "x"'s and enter your bot_chat ID<br />
+  * line 68	  api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'# Delete "x"'s and enter your Telegram API key<br />
+  * line 69   bot_chatID = 'xxxxxxxxx'  #Delete "x"'s and enter your bot_chat ID<br />
 
 * Double-click start.sh to run the program.
 
