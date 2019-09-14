@@ -4,34 +4,34 @@ XRP Messenger is a Linux Python 3 library for getting the current BUY value of X
 
 ## Getting Started
 
-1. Create a Telegram Bot. Many tutorials can be found online. It takes only a couple of minutes to do.<br />
-2. Open mercury.py in your favourite IDE or text editor and edit the following lines:<br />
+* Create a Telegram Bot. Many tutorials can be found online. It takes only a couple of minutes to do.<br />
+* Open mercury.py in your favourite IDE or text editor and edit the following lines:<br />
 
-2.1. line 42   xrpval = 5.0 # enter your limit in ZAR without the "R". R5.00 in this example.<br />
+* line 42   xrpval = 5.0 # enter your limit in ZAR without the "R". R5.00 in this example.<br />
 
-2.2. line 68	  api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'# Delete "x"'s and enter your Telegram API key<br />
-2.3. line 69   bot_chatID = 'xxxxxxxxx'  #Delete "x"'s and enter your bot_chat ID<br />
+* line 68	  api_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'# Delete "x"'s and enter your Telegram API key<br />
+* line 69   bot_chatID = 'xxxxxxxxx'  #Delete "x"'s and enter your bot_chat ID<br />
 
-3. Double-click start.sh to run the program.
+* Double-click start.sh to run the program.
 
 ### Prerequisites
-1. [Telegram Desktop](https://itsfoss.com/install-telegram-desktop-linux/)<br />
-2. A [Telegram Bot](https://core.telegram.org/bots)<br />
-2. [Python 3](https://www.python.org/downloads/release/python-373/)<br />
-2. [pip3](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/) <br />
+* [Telegram Desktop](https://itsfoss.com/install-telegram-desktop-linux/)<br />
+* A [Telegram Bot](https://core.telegram.org/bots)<br />
+* [Python 3](https://www.python.org/downloads/release/python-373/)<br />
+* [pip3](https://linuxize.com/post/how-to-install-pip-on-ubuntu-18.04/) <br />
 
 ### Installing
 
-1. Extract the folder to where you want it.
-2. In Terminal cd to this folder and run: sudo apt install figlet toilet
-3. Still in Terminal: pip3 install -r requirements.txt. Close Terminal when completed.
-4. In Ubuntu do the following to run an executable text file when double-clicked:
+* Extract the folder to where you want it.
+* In Terminal cd to this folder and run: sudo apt install figlet toilet
+* Still in Terminal: pip3 install -r requirements.txt. Close Terminal when completed.
+* In Ubuntu do the following to run an executable text file when double-clicked:
 
-4.1. Open the File Manager.<br />
-4.2. Click on the "hamburger" symbol on the top right of the window, left of the "Minimize" symbol. A menu will drop down.<br />
-4.3. Click "Preferences". A tabbed dialog box will be displayed.<br />
-4.4. Select the "Behavior" tab.<br />
-4.5. Choose "Double click" from "Open Action" and "Run them" for Executable Text Files".Close File Manager.<br />
+** Open the File Manager.<br />
+** Click on the "hamburger" symbol on the top right of the window, left of the "Minimize" symbol. A menu will drop down.<br />
+** Click "Preferences". A tabbed dialog box will be displayed.<br />
+** Select the "Behavior" tab.<br />
+** Choose "Double click" from "Open Action" and "Run them" for Executable Text Files".Close File Manager.<br />
 
 ## Built With
 * [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) - Operating System
