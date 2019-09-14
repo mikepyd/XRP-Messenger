@@ -22,7 +22,7 @@ line 69   bot_chatID = 'xxxxxxxxx'  #Delete "x"'s and enter your bot_chat ID
 
 1. Extract the folder to where you want it.
 2. In Terminal cd to this folder and run: sudo apt install figlet toilet
-3. run pip3 install -r requirements.txt
+3. Still in Terminal: pip3 install -r requirements.txt
 4. In Ubuntu do the following to run an executable text file when double-clicked:
 
 a) Open the File Manager.
