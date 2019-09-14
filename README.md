@@ -32,6 +32,7 @@ XRP Messenger is a Linux Python 3 library for getting the current BUY value of X
   * Click "Preferences". A tabbed dialog box will be displayed.<br />
   * Select the "Behavior" tab.<br />
   * Choose "Double click" from "Open Action" and "Run them" for Executable Text Files".Close File Manager.<br />
+* That's it! Now double-click "start.sh" to start the program.
 
 ## Built With
 * [Ubuntu 19.04](http://releases.ubuntu.com/19.04/) - Operating System
