@@ -41,8 +41,8 @@ XRP Messenger is a Linux Python 3 library for getting the current BUY value of X
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.<br />
-Please make sure to update tests as appropriate.
+* Pull requests are welcome.<br /> 
+* For major changes, please open an issue first to discuss what you would like to change.<br />
 
 ## Versioning
 
